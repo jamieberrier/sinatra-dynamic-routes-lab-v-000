@@ -39,9 +39,9 @@ class App < Sinatra::Base
     elsif @operation == 'subtract'
       (@number1 - @number2).to_s
     elsif @operation == 'multiply'
-      @number1 * @number2).to_s
+      (@number1 * @number2).to_s
     elsif @operation == 'divide'
-      @number1 / @number2).to_s
+      (@number1 / @number2).to_s
     end
   end
 end
