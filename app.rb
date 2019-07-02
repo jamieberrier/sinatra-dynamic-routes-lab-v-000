@@ -43,7 +43,5 @@ class App < Sinatra::Base
     elsif @operation == 'divide'
       @number1 / @number2
     end
-
-
   end
 end
